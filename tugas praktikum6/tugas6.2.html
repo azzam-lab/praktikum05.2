@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Praktikum 5.3 - Box & Positioning</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: greenyellow;
+  }
+
+  .container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid white;
+    padding: 10px;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .top-left {
+    background-color:yellow;
+    width: 25%;
+    height: 60px;
+  }
+
+  .top-right {
+    background-color: red;
+    width: 73%;
+    height: 60px;
+  }
+
+  .middle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .left {
+    background-color: palegreen;
+    width: 25%;
+    height: 350px; /* diperpanjang ke bawah */
+  }
+
+  .center {
+    background-color: black;
+    width: 55%;
+    height: 350px; /* diperpanjang ke bawah */
+  }
+
+  .right {
+    background-color: #4dd0e1;
+    width: 15%;
+    height: 350px; /* diperpanjang ke bawah */
+  }
+
+  .footer {
+    background-color: #2962ff;
+    height: 60px;
+    margin-top: 15px; /* biar agak turun */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="top">
+    <div class="top-left"></div>
+    <div class="top-right"></div>
+  </div>
+
+  <div class="middle">
+    <div class="left"></div>
+    <div class="center"></div>
+    <div class="right"></div>
+  </div>
+
+  <div class="footer"></div>
+</div>
+
+</body>
+</html>
